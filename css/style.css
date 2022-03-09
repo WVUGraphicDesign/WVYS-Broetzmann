@@ -1,0 +1,19 @@
+nav{
+  background-color: #313639;
+}
+
+nav ul{
+  display: grid;
+  grid-template-columns: repeat(6, 25%);
+  grid-column-gap: 2px;
+}
+
+nav li{
+  list-style: none;
+  margin-left: 0;
+  text-align: center;
+}
+
+h1{
+
+}
