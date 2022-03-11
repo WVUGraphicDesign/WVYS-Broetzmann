@@ -10,6 +10,11 @@ nav{
   positon: relative;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .headerimage{
   position: relative;
 }
@@ -127,13 +132,13 @@ height: 200px;
   height: 202px;
 }
 
-footer ul{
+footer > ul{
   display: grid;
-  background-color: #555555;
+  background-color: #919191;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 16px;
   font-family: "Poppins";
-  height: 200px;
+  height: 250px;
   font-size: 15px;
   padding-left: 110px;
 }
