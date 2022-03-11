@@ -41,10 +41,39 @@ nav li{
 
 article h1{
   font-weight: bold;
-  font-size: 35px;
+  font-size: 40px;
   margin-top: 30px;
-  margin-left: 300px;
-  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-bottom: 15px;
+  font-family: "Poppins";
+}
+
+article p{
+  margin-left: 200px;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+}
+
+.pbold{
+  font-size: 20px;
+}
+
+.newsp{
+  font-weight: normal;
+  font-family: "PT Serif";
+}
+
+.newsgreatjob{
+  font-weight: bolder;
+  font-size: 16px;
+  font-family: "PT Serif";
+}
+
+.newscontact{
+  font-family: "PT Serif";
+  font-size: 12px;
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
 .spring2015imagea{
@@ -113,4 +142,8 @@ footer li{
   list-style: none;
   margin-left: 0;
   margin-top: 15px;
+}
+
+.navigationlist{
+
 }
