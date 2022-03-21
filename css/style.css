@@ -76,7 +76,7 @@ article h3{
 }
 
 .everyoneimage{
-  width: 960px;
+  width: 939px;
   height: 591px;
   position: relative;
 }
@@ -84,7 +84,7 @@ article h3{
 .homeh1{
   position: absolute;
   top: 200px;
-  left: 620px;
+  left: 610px;
   color: white;
   font-weight: 300;
   font-family: "Poppins";
@@ -96,9 +96,17 @@ article h3{
   font-family: "Poppins";
   color: white;
   top: 245px;
-  left: 675px;
+  left: 665px;
   font-weight: 300;
   font-size: 15px;
+}
+
+.headerp{
+  font-family: "Poppins";
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .programinfoleft{
