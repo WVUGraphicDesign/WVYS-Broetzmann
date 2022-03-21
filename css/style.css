@@ -6,6 +6,10 @@ article{
   background-color: #f2f2f3;
 }
 
+header{
+  background-color: #f2f2f3;
+}
+
 nav{
   positon: relative;
 }
@@ -69,6 +73,32 @@ article p{
 article h3{
   margin-left: 200px;
   margin-bottom: 10px;
+}
+
+.everyoneimage{
+  width: 960px;
+  height: 591px;
+  position: relative;
+}
+
+.homeh1{
+  position: absolute;
+  top: 200px;
+  left: 620px;
+  color: white;
+  font-weight: 300;
+  font-family: "Poppins";
+  font-size: 30px;
+}
+
+.homeh3{
+  position: absolute;
+  font-family: "Poppins";
+  color: white;
+  top: 245px;
+  left: 675px;
+  font-weight: 300;
+  font-size: 15px;
 }
 
 .programinfoleft{
