@@ -118,6 +118,15 @@ margin-top: 15px;
   height: 234px;
 }
 
+.youthwinds{
+  margin-left: 50px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+  width: 350px;
+  height: 234px;
+  float: right;
+}
+
 .chambermusic{
   margin-left: 50px;
   margin-bottom: 100px;
@@ -128,24 +137,28 @@ margin-top: 15px;
   float: left;
 }
 
+.chamberh2{
+  margin-left: 450px;
+}
+
 #ensemblessectionone{
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 #ensemblessectiontwo{
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 #ensemblessectionthree{
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 #ensemblessectionfour{
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 #ensemblesectionfive{
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .pbold{
