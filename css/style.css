@@ -45,11 +45,17 @@ nav li{
 }
 
 article h1{
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 40px;
   margin-top: 30px;
   margin-left: 200px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+}
+
+article h2{
+  font-weight: bold;
+  font-size: 30px;
   font-family: "Poppins";
 }
 
@@ -57,6 +63,71 @@ article p{
   margin-left: 200px;
   margin-bottom: 10px;
   font-family: "Poppins";
+}
+
+article h3{
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+
+.programinfoleft{
+  font-family: "PT Serif";
+}
+
+.programinforight{
+  font-family: "PT Serif";
+}
+
+.ensemblesh1{
+margin-left: 350px;
+}
+
+.ensemblesp{
+font-family: "PT Serif";
+font-weight: normal;
+font-size: 16px;
+margin-left: 50px;
+margin-top: 15px;
+}
+
+.youthorchestra{
+  margin-left: 50px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+  width: 350px;
+  height: 234px;
+  float: left;
+}
+
+.youthstrings{
+  margin-left: 50px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+  width: 350px;
+  height: 234px;
+  float: right;
+}
+
+.cadetstrings{
+  margin-left: 50px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+  float: left;
+  width: 350px;
+  height: 234px;
+}
+
+#ensemblessectionone{
+  margin-bottom: 100px;
+}
+
+#ensemblessectiontwo{
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+
+#ensemblessectionthree{
+  margin-bottom: 100px;
 }
 
 .pbold{
@@ -78,6 +149,23 @@ article p{
   font-family: "PT Serif";
   font-size: 12px;
   margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.presshead{
+  font-family: "Poppins";
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.pressp{
+  font-weight: normal;
+  font-family: "PT Serif";
+}
+
+.presspend{
+  font-weight: normal;
+  font-family: "PT Serif";
   margin-bottom: 60px;
 }
 
