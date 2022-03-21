@@ -57,6 +57,7 @@ article h2{
   font-weight: bold;
   font-size: 30px;
   font-family: "Poppins";
+  margin-left: 50px;
 }
 
 article p{
@@ -117,6 +118,16 @@ margin-top: 15px;
   height: 234px;
 }
 
+.chambermusic{
+  margin-left: 50px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-top: 50px;
+  width: 350px;
+  height: 234px;
+  float: left;
+}
+
 #ensemblessectionone{
   margin-bottom: 100px;
 }
@@ -126,6 +137,14 @@ margin-top: 15px;
 }
 
 #ensemblessectionthree{
+  margin-bottom: 100px;
+}
+
+#ensemblessectionfour{
+  margin-bottom: 100px;
+}
+
+#ensemblesectionfive{
   margin-bottom: 100px;
 }
 
