@@ -34,6 +34,7 @@ a{
   background-color: #caeaf4;
   width: 160px;
   height: 100%;
+  float: left;
 }
 
 .sidenav li{
@@ -328,6 +329,17 @@ margin-top: 15px;
   font-weight: normal;
   font-family: "PT Serif";
   margin-bottom: 60px;
+}
+
+.photoimagesa{
+  width: 310px;
+  margin-left: 40px;
+  float: left;
+}
+
+.photoimagesb{
+  width: 310px;
+  margin-left: 40px;
 }
 
 .spring2015imagea{
