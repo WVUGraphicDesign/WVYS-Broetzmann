@@ -38,6 +38,17 @@ a{
 
 .sidenav li{
   list-style: none;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+.sidenav a{
+  padding: 8px 8px 8px 8px;
+  display: block;
+}
+
+.sidenav a:hover{
+  color: #23395d;
 }
 
 nav ul{
