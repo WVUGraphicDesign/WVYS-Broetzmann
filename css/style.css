@@ -334,12 +334,25 @@ margin-top: 15px;
 .photoimagesa{
   width: 310px;
   margin-left: 40px;
-  float: left;
+  margin-bottom: 70px;
 }
 
 .photoimagesb{
   width: 310px;
   margin-left: 40px;
+  margin-bottom: 70px;
+}
+
+.photoimagesc{
+  width: 310px;
+  margin-left: 200px;
+  margin-bottom: 70px;
+}
+
+.photoimagesd{
+  width: 310px;
+  margin-left: 40px;
+  margin-bottom: 70px;
 }
 
 .spring2015imagea{
@@ -393,6 +406,69 @@ height: 200px;
   height: 202px;
 }
 
+form{
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+
+form p{
+  margin-left: 0px;
+}
+
+.formh1{
+  margin-left: 280px;
+}
+
+label{
+  font-family: "Poppins";
+}
+
+input{
+  width: 35%;
+  font-family: "Poppins";
+}
+
+input[type="radio"]{
+  display: block;
+  cursor: pointer;
+}
+
+input[type="text"] {
+padding: 10px;
+margin: 10px 0;
+border-radius: 10px;
+border: 0;
+}
+
+input[type="tel"] {
+padding: 10px;
+margin: 10px 0;
+border-radius: 10px;
+border: 0;
+}
+
+input[type="email"] {
+padding: 10px;
+margin: 10px 0;
+border-radius: 10px;
+border: 0;
+width: 73%;
+}
+
+input[type="textarea"] {
+padding: 10px;
+margin: 10px 0;
+border-radius: 10px;
+border: 0;
+}
+
+select{
+padding: 10px;
+margin: 10px 0;
+border-radius: 10px;
+border: 0;
+}
+
 footer > ul{
   display: grid;
   background-color: #919191;
@@ -408,8 +484,4 @@ footer li{
   list-style: none;
   margin-left: 0;
   margin-top: 15px;
-}
-
-.navigationlist{
-
 }
