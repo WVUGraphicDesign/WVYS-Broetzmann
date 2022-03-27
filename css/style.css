@@ -278,6 +278,10 @@ margin-left: 350px;
   margin-left: 100px;
 }
 
+.ensemblesh2a{
+margin-left: 550px;
+}
+
 .ensemblesh2cadet{
   margin-left: 100px;
 }
@@ -327,7 +331,7 @@ margin-bottom: 240px;
   font-weight: normal;
   font-size: 14px;
   margin-left: 100px;
-  margin-bottom: 235px;
+  margin-bottom: 270px;
 }
 
 .youthorchestra{
@@ -341,7 +345,7 @@ margin-bottom: 240px;
 .youthstrings{
   margin-left: 50px;
   margin-bottom: 100px;
-  margin-right: 50px;
+  margin-right: 80px;
   width: 450px;
   float: right;
 }
@@ -356,7 +360,7 @@ margin-bottom: 240px;
 
 .youthwinds{
   margin-left: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-right: 50px;
   width: 450px;
   float: right;
