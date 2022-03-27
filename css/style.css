@@ -429,12 +429,15 @@ margin-bottom: 240px;
 }
 
 .mediah3a{
-  margin-right: 20px;
+  margin-left: 200px;
+  margin-right: 220px;
   margin-bottom: 40px;
+  float: left;
 }
 
 .mediah3b{
-margin-bottom: 40px;
+  margin-left: 100px;
+  margin-bottom: 40px;
 }
 
 .medianh3c{
