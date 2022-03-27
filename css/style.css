@@ -156,11 +156,12 @@ article p{
 .homeh1{
   position: absolute;
   top: 200px;
-  left: 400px;
+  left: 310px;
   color: white;
   font-weight: 300;
   font-family: "Poppins";
   font-size: 30px;
+  text-align: center;
 }
 
 .homeh3{
@@ -168,9 +169,10 @@ article p{
   font-family: "Poppins";
   color: white;
   top: 280px;
-  left: 457px;
+  left: 370px;
   font-weight: 300;
   font-size: 15px;
+  text-align: center;
 }
 
 .homeh2a{
