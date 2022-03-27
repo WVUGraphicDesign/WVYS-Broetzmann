@@ -14,18 +14,34 @@
 <body>
 
   <div id="topnav" class="container_16">
+  <header>
   <nav class="grid_16">
-    <img src="images/headerimage.png" alt="People Playing Instruments" class="headerimage">
-    <ul>
-      <li><a href="#">Home</a></li>
+    <ul class="grid_14 primarynav">
+      <li><a href="#">Home</a>
+        <ul class="secondarynav">
+          <a href="index.html">Home</a>
+          <a href="#">Mission</a>
+          <a href="news.html">News</a>
+          <a href="#">Alumni</a>
+      </ul></li>
       <li><a href="#">Staff</a></li>
-      <li><a href="#">Ensembles</a></li>
+      <li><a href="#">Ensembles</a>
+        <ul class="secondarynav">
+          <a href="ensembles.html">Ensembles</a>
+          <a href="media.html">Media</a>
+        </ul></li>
       <li><a href="#">Support</a></li>
-      <li><a href="#">Resources</a></li>
+      <li><a href="#">Resources</a>
+        <ul class="secondarynav">
+          <a href="studentinfoformpageone.html">Resources</a>
+          <a href="#">Auditions</a>
+          <a href="#">Tuition</a>
+        </ul></li>
       <li><a href="#">Contact</a></li>
     </ul>
-    <img src="images/wvyslogo.png" alt="WVYS Logo" class="wvyslogo">
+    <img src="images/wvyslogonav.png" alt="People Playing Instruments" class="headerimage">
     </nav>
+  </header>
 
 <article class="grid_16">
 
@@ -96,102 +112,101 @@
 
     <p>Ensembles</p>
 
-    <input type="radio" id="ensembles">
+    <input type="radio" id="ensemblescadetstrings" name="ensembles">
     <label for="radio">Cadet Strings</label>
 
+    <input type="radio" id="ensemblesyouthstrings" name="ensembles">
     <label for="radio">Youth Strings</label>
-    <input type="radio" id="ensembles">
 
+    <input type="radio" id="ensemblesyouthwinds" name="ensembles">
     <label for="radio">Youth Winds</label>
-    <input type="radio" id="ensembles">
 
+    <input type="radio" id="ensemblesyouthorchestra" name="ensembles">
     <label for="radio">Youth Orchestra</label>
-    <input type="radio" id="ensembles">
 
+    <input type="radio" id="ensemblesnotsure" name="ensembles">
     <label for="radio">Not Sure</label>
-    <input type="radio" id="ensembles">
-  
+
 
     <br>
 
+    <label for="textarea">Instrument(s)</label>
     <input type="textarea" placeholder="Instrument(s)" id="instruments">
 
     <br>
 
+    <label for="textarea">Name of School</label>
     <input type="textarea" placeholder="Name of School" id="nameofschool">
 
+    <br>
+
+    <label for="textarea">Grade</label>
     <input type="textarea" placeholder="Grade" id="grade">
 
     <br>
 
     <p>Do You Play In Your School's Band?</p>
 
+    <input type="radio" id="playinschoolbandyes" name="school-band">
     <label for="radio">Yes</label>
-    <input type="radio" id="playinschoolband">
 
+    <input type="radio" id="playinschoolbandno" name="school-band">
     <label for="radio">No</label>
-    <input type="radio" id="playinschoolband">
 
+    <input type="radio" id="noschoolband" name="school-band">
     <label for="radio">My School Doesn't Have An Band</label>
-    <input type="radio" id="playinschoolband">
 
     <p>Do You Play In Your School's Orchestra?</p>
 
+    <input type="radio" id="playinschoolorchestrayes" name="school-orchestra">
     <label for="radio">Yes</label>
-    <input type="radio" id="playinschoolorchestra">
 
+    <input type="radio" id="playinschoolorchestrano" name="school-orchestra">
     <label for="radio">No</label>
-    <input type="radio" id="playinschoolorchestra">
 
+    <input type="radio" id="noschoolorchestra" name="school-orchestra">
     <label for="radio">My School Doesn't Have An Orchestra</label>
-    <input type="radio" id="playinschoolorchestra">
 
     <br>
 
     <label for="select">Number of Years in WVYS</label>
-    <select id="numberyearswvys">
-    <option value="0">0</option>
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
-    <option value="6">6</option>
-    <option value="7">7</option>
-    <option value="8">8</option>
-    <option value="9">9</option>
-    <option value="10">10</option>
-  </select>
+    <input type="number">
+
 
   <br>
 
+  <label for"name">Private Teacher's Name</label>
   <input type="text" placeholder="Private Teacher's Name" id="privateteachername">
 
+  <br>
+
+  <label for"tel">Private Teacher's Phone Number</label>
   <input type="tel" placeholder="Private Teacher's Phone Number" id="privateteacherphone">
 
   <br>
 
+  <label for"email">Private Teacher's Email Address</label>
   <input type="email" placeholder="Private Teacher's Email Address" id="privateteacheremail">
 
   <br>
 
-  <p>I hereby give my permission for my child’s name and/or photograph to be released to newspapers, radio stations, television stations or Internet web site for publicity purposes in conjunction with the WV Youth Symphony.</p>
+  <p>I hereby give my permission for my child’s name and/or photograph to be released <br> to newspapers, radio stations, television stations or Internet web site for publicity <br> purposes in conjunction with the WV Youth Symphony.</p>
 
+  <input type="radio" id="herebygivepermissionyes" name="wvys-permission">
   <label for="radio">Yes</label>
-  <input type="radio" id="herebygivepermission">
 
+  <input type="radio" id="herebygivepermissionno" name="wvys-permission">
   <label for="radio">No</label>
-  <input type="radio" id="herebygivepermission">
 
   <br>
 
   <p>I would like to be included in the WVYS directory.</p>
 
+  <input type="radio" id="includewvysdirectoryyes" name="wvys-directory">
   <label for="radio">Yes</label>
-  <input type="radio" id="includewvysdirectory">
 
+  <input type="radio" id="includewvysdirectoryno" name="wvys-directory">
   <label for="radio">No</label>
-  <input type="radio" id="includewvysdirectory">
 
 
 
@@ -202,11 +217,11 @@
     <ul>
       <li><a href="#">Navigation</a>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="#">Staff</a></li>
-          <li><a href="#">Ensembles</a></li>
+          <li><a href="ensembles.html">Ensembles</a></li>
           <li><a href="#">Support</a></li>
-          <li><a href="#">Resources</a></li>
+          <li><a href="studentinfoformpageone.html">Resources</a></li>
         </ul></li>
         <li><a href="#">Social Media</a>
           <ul>

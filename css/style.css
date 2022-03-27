@@ -8,10 +8,11 @@ article{
 
 header{
   background-color: #f2f2f3;
+  font-family: "Poppins";
 }
 
 nav{
-  positon: relative;
+  position: relative;
 }
 
 a{
@@ -19,15 +20,13 @@ a{
   color: white;
 }
 
-.headerimage{
+.wvyslogonav{
   position: relative;
+  z-index: -99;
 }
 
-.wvyslogo{
-  position: absolute;
-  float: left;
-  top: 10px;
-  left: 50px;
+.wvyshometwo{
+  width: 940px;
 }
 
 .sidenav{
@@ -52,6 +51,7 @@ a{
   color: #23395d;
 }
 
+/*
 nav ul{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -68,6 +68,49 @@ nav li{
   margin-left: 0;
   text-align: center;
   text-decoration-color: #ffffff;
+*/
+
+.primarynav{
+  position: absolute;
+  top: 25px;
+  left: 320px;
+  z-index: 99;
+}
+
+.primarynav > li{
+  float: left;
+  list-style: none;
+  margin-left: 0;
+  text-align: center;
+  width: 10%;
+}
+
+.primarynav > li > a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+}
+
+.secondarynav{
+  width: 100%;
+  display: none;
+}
+
+.secondarynav li{
+  list-style: none;
+  margin-left: 0;
+}
+
+.secondarynav a{
+  text-decoration: none;
+  background: #152238;
+  display: block;
+  padding: 10px;
+}
+
+.primarynav li:hover .secondarynav{
+display: block;
 }
 
 article h1{
@@ -83,15 +126,15 @@ article h2{
   font-weight: bold;
   font-size: 30px;
   font-family: "Poppins";
-  margin-left: 50px;
+  margin-left: 10px;
   margin-top: 15px;
-  margin-bottom: 50px;
-  text-align: center;
+  margin-bottom: 5px;
 }
 
 article h3{
   margin-left: 200px;
   margin-bottom: 10px;
+  float: left;
 }
 
 article h6{
@@ -100,7 +143,6 @@ article h6{
 }
 
 article p{
-  margin-left: 200px;
   margin-bottom: 10px;
   font-family: "Poppins";
 }
@@ -114,7 +156,7 @@ article p{
 .homeh1{
   position: absolute;
   top: 200px;
-  left: 610px;
+  left: 400px;
   color: white;
   font-weight: 300;
   font-family: "Poppins";
@@ -125,10 +167,26 @@ article p{
   position: absolute;
   font-family: "Poppins";
   color: white;
-  top: 245px;
-  left: 665px;
+  top: 280px;
+  left: 457px;
   font-weight: 300;
   font-size: 15px;
+}
+
+.homeh2a{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Poppins";
+  margin-left: 0px;
+  text-align: center;
+}
+
+.homeh2b{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Poppins";
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .headerp{
@@ -136,6 +194,7 @@ article p{
   text-align: center;
   margin-top: 15px;
   margin-bottom: 35px;
+  margin-left: 0px;
   font-size: 20px;
   font-weight: normal;
 }
@@ -143,7 +202,7 @@ article p{
 .cadetstringshome{
   margin-left: 20px;
   margin-right: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 140px;
   margin-top: 70px;
   float: left;
   width: 470px;
@@ -152,14 +211,14 @@ article p{
 
 .homesectiononep{
   font-family: "PT Serif";
-  font-size: 15px;
+  font-size: 16px;
   margin-left: 15px;
 }
 
 .homesectiononecontact{
   font-family: "Poppins";
   margin-top: 35px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   text-align: center;
   margin-left: 10px;
 }
@@ -174,8 +233,8 @@ article p{
 
 .homesectiontwop{
   font-family: "PT Serif";
-  font-size: 15px;
-  margin-left: 50px;
+  font-size: 16px;
+  margin-left: 90px;
 }
 
 #homesectionthree{
@@ -186,6 +245,7 @@ article p{
   float: left;
   margin-left: 20px;
   margin-right: 50px;
+  margin-bottom: 20px;
   width: 450px;
 }
 
@@ -200,61 +260,105 @@ article p{
 
 .programinfoleft{
   font-family: "PT Serif";
-  font-size: 15px;
-  margin-left: 50px;
+  font-size: 16px;
+  margin-left: 120px;
   margin-top: 20px;
 }
 
 .programinforight{
   font-family: "PT Serif";
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .ensemblesh1{
 margin-left: 350px;
 }
 
+.ensemblesh2{
+  margin-left: 100px;
+}
+
+.ensemblesh2cadet{
+  margin-left: 100px;
+}
+
 .ensemblesp{
 font-family: "PT Serif";
 font-weight: normal;
-font-size: 16px;
-margin-left: 50px;
-margin-top: 15px;
+font-size: 15px;
+margin-left: 100px;
+margin-bottom: 200px;
+}
+
+.ensemblespchambera{
+font-family: "PT Serif";
+font-weight: normal;
+font-size: 15px;
+margin-left: 100px;
+margin-bottom: 25px;
+}
+
+.ensemblespchamberb{
+font-family: "PT Serif";
+font-weight: normal;
+font-size: 15px;
+margin-left: 100px;
+margin-bottom: 50px;
+}
+
+.ensemblespa{
+  font-family: "PT Serif";
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-bottom: 250px;
+}
+
+.ensemblespb{
+font-family: "PT Serif";
+font-weight: normal;
+font-size: 15px;
+margin-left: 100px;
+margin-bottom: 240px;
+}
+
+.ensemblespd{
+  font-family: "PT Serif";
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 100px;
+  margin-bottom: 235px;
 }
 
 .youthorchestra{
   margin-left: 50px;
-  margin-bottom: 25px;
-  margin-right: 50px;
-  width: 350px;
-  height: 234px;
+  margin-bottom: 100px;
+  margin-right: 40px;
+  width: 450px;
   float: left;
 }
 
 .youthstrings{
   margin-left: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
   margin-right: 50px;
-  width: 350px;
-  height: 234px;
+  width: 450px;
   float: right;
 }
 
 .cadetstrings{
   margin-left: 50px;
-  margin-bottom: 25px;
-  margin-right: 50px;
+  margin-bottom: 100px;
+  margin-right: 40px;
   float: left;
-  width: 350px;
-  height: 234px;
+  width: 440px;
 }
 
 .youthwinds{
   margin-left: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
   margin-right: 50px;
-  width: 350px;
-  height: 234px;
+  width: 450px;
   float: right;
 }
 
@@ -262,34 +366,13 @@ margin-top: 15px;
   margin-left: 50px;
   margin-bottom: 100px;
   margin-right: 50px;
-  margin-top: 50px;
-  width: 350px;
-  height: 234px;
+  margin-top: 0px;
+  width: 450px;
   float: left;
 }
 
 .chamberh2{
-  margin-left: 450px;
-}
-
-#ensemblessectionone{
-  margin-bottom: 150px;
-}
-
-#ensemblessectiontwo{
-  margin-bottom: 150px;
-}
-
-#ensemblessectionthree{
-  margin-bottom: 150px;
-}
-
-#ensemblessectionfour{
-  margin-bottom: 150px;
-}
-
-#ensemblesectionfive{
-  margin-bottom: 150px;
+  margin-left: 50px;
 }
 
 .pbold{
@@ -331,28 +414,62 @@ margin-top: 15px;
   margin-bottom: 60px;
 }
 
+.mediah3a{
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.mediah3b{
+margin-bottom: 40px;
+}
+
+.medianh3c{
+float: right;
+}
+
+.photoh3a{
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.photoh3b{
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
+
+.photoh3d{
+  margin-left: 150px;
+}
+
 .photoimagesa{
   width: 310px;
   margin-left: 40px;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 
 .photoimagesb{
   width: 310px;
   margin-left: 40px;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 
 .photoimagesc{
   width: 310px;
   margin-left: 200px;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
+  margin-right: 70px;
+}
+
+.photoimagesca{
+  width: 310px;
+  margin-left: 200px;
+  margin-bottom: 10px;
 }
 
 .photoimagesd{
   width: 310px;
   margin-left: 40px;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 
 .spring2015imagea{
@@ -431,7 +548,6 @@ input{
 }
 
 input[type="radio"]{
-  display: block;
   cursor: pointer;
 }
 
@@ -463,7 +579,7 @@ border-radius: 10px;
 border: 0;
 }
 
-select{
+input[type="number"] {
 padding: 10px;
 margin: 10px 0;
 border-radius: 10px;
