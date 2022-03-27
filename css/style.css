@@ -383,17 +383,20 @@ margin-bottom: 240px;
 
 .pbold{
   font-size: 20px;
+  margin-left: 200px;
 }
 
 .newsp{
   font-weight: normal;
   font-family: "PT Serif";
+  margin-left: 200px;
 }
 
 .newsgreatjob{
   font-weight: bolder;
   font-size: 16px;
   font-family: "PT Serif";
+  margin-left: 200px;
 }
 
 .newscontact{
@@ -401,6 +404,7 @@ margin-bottom: 240px;
   font-size: 12px;
   margin-top: 50px;
   margin-bottom: 60px;
+  margin-left: 200px;
 }
 
 .presshead{
