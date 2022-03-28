@@ -687,6 +687,12 @@ height: 200px;
   height: 202px;
 }
 
+.wvyscalendar{
+  width: 700px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
 form{
   margin-left: 200px;
   margin-bottom: 50px;
@@ -748,6 +754,13 @@ padding: 10px;
 margin: 10px 0;
 border-radius: 10px;
 border: 0;
+}
+
+input[type="message"]{
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 0;
 }
 
 footer > ul{
