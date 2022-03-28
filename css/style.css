@@ -80,7 +80,7 @@ nav li{
 .primarynav > li{
   float: left;
   list-style: none;
-  margin-left: 0;
+  margin-left: 15px;
   text-align: center;
   width: 10%;
 }
