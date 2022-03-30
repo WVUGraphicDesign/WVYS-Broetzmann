@@ -77,15 +77,16 @@ nav li{
 
 .primarynav{
   position: absolute;
-  top: 25px;
-  left: 320px;
+  top: 100px;
+  left: 90px;
   z-index: 99;
 }
 
 .primarynav > li{
   float: left;
   list-style: none;
-  margin-left: 15px;
+  margin-left: 10px;
+  margin-right: 40px;
   text-align: center;
   width: 10%;
 }
