@@ -786,6 +786,18 @@ input[type="message"]{
   border: 0;
 }
 
+.infoformnextpage{
+  color: white;
+  margin-left: 380px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-family: "Poppins";
+  border-radius: 10px;
+  background-color: #ca302f;
+  width: 20%;
+  text-align: center;
+}
+
 .footerheader{
   font-size: 19px;
 }
