@@ -20,6 +20,11 @@ a{
   color: white;
 }
 
+.appicon{
+  width: 50px;
+
+}
+
 .wvyslogonav{
   position: relative;
   z-index: -99;
@@ -763,6 +768,10 @@ input[type="message"]{
   border: 0;
 }
 
+.footerheader{
+  font-size: 19px;
+}
+
 footer > ul{
   display: grid;
   background-color: #919191;
@@ -770,7 +779,7 @@ footer > ul{
   grid-column-gap: 16px;
   font-family: "Poppins";
   height: 250px;
-  font-size: 15px;
+  font-size: 17px;
   padding-left: 110px;
 }
 
@@ -778,4 +787,5 @@ footer li{
   list-style: none;
   margin-left: 0;
   margin-top: 15px;
+  font-size: 15px;
 }
